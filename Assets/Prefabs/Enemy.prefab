@@ -76,7 +76,6 @@ MonoBehaviour:
   chasingSpeed: 3
   timeToWait: 5
   timeToChase: 3
-  minDistanceToPlayer: 1.15
   enemyModelTransform: {fileID: 1709520796505488348}
 --- !u!114 &1705142125147872894
 MonoBehaviour:
@@ -123,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25c39f0d85b7eab499d9708724226d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 10
   timeToDamage: 1
 --- !u!70 &1705142125147872889
 CapsuleCollider2D:

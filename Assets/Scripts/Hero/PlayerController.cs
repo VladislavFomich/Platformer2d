@@ -40,13 +40,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
         // for UNITY_EDITOR
-     _horizontal = Input.GetAxis("Horizontal");
+       // _horizontal = Input.GetAxis("Horizontal");
 
 
         // for UNITY_ANDROID
-        //_horizontal = _fixedJoystick.Horizontal;
+        _horizontal = _fixedJoystick.Horizontal;
         
         animator.SetFloat("speedX", Mathf.Abs(_horizontal));
         if (Input.GetKeyDown(KeyCode.Space))
@@ -69,7 +68,8 @@ public class PlayerController : MonoBehaviour
 
         if (_isJump)
         {
-            _rb.AddForce(new Vector2(0f, jumpForce));
+            _rb.velocity = new Vector2(_rb.velocity.x, 0f);
+            _rb.AddForce(new Vector2(0f, jumpForce),ForceMode2D.Impulse);
             _isGround = false;
             _isJump = false;
         }

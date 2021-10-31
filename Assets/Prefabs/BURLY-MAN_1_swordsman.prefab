@@ -4067,9 +4067,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpSound: {fileID: 728325247}
   speedX: 5
-  jumpForce: 500
+  jumpForce: 12
   animator: {fileID: 95941530780404234}
   playerModelTransform: {fileID: 4372054120543010}
+  checkGround: {fileID: 0}
+  taskOne: {fileID: 0}
+  taskTwo: {fileID: 0}
 --- !u!114 &1577495273
 MonoBehaviour:
   m_ObjectHideFlags: 0
