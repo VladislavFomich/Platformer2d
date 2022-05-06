@@ -63,7 +63,7 @@ TextureImporter:
       213: 2993095995489984387
     second: terrain_example_19
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -83,6 +83,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -91,9 +93,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -114,9 +116,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -658,6 +664,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      terrain_example_4: -5247085459104405954
+      terrain_example_12: 3021034931587877316
+      terrain_example_7: 4622352098945642019
+      terrain_example_8: 2401981204665658838
+      terrain_example_14: -394977918426291039
+      terrain_example_15: 2243088471204456476
+      terrain_example_5: 7579835976130279661
+      terrain_example_13: -3623669564251182150
+      terrain_example_16: -6334213002268112819
+      terrain_example_6: 201721231542000431
+      terrain_example_2: 4081600860041930262
+      terrain_example_17: -168256460938731329
+      terrain_example_19: 2993095995489984387
+      terrain_example_18: -5249912764819071444
+      terrain_example_0: 6218621001228761135
+      terrain_example_1: -8617796166876484926
+      terrain_example_3: -9218596619478215446
+      terrain_example_9: 7851064853857498154
+      terrain_example_10: 3187257652494420777
+      terrain_example_11: -5635803414081211535
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
